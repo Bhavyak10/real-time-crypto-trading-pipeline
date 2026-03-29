@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Mac
+.DS_Store
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Model artifacts
+models/latest.pkl
+models/latest.json
